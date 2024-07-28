@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://8chmg8udktqo"]
+
+[ext_resource type="PackedScene" uid="uid://dqkbgaqs1w27" path="res://Scenes/sandbox.tscn" id="1_mum60"]
+
+[node name="World" type="Node2D"]
+
+[node name="Main" parent="." instance=ExtResource("1_mum60")]
+
+[node name="Projectiles" type="Node2D" parent="." groups=["projectiles_parent"]]
